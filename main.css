@@ -1,5 +1,24 @@
-background {
-    color:aliceblue;
-    text-decoration-color:black;
+body {
+    background-color:aliceblue;
+    color:black;
 }
 
+
+/* id's= unique i dentifiers for specific things, can only have on id. use "#"
+   class= multiple things use "." */
+
+
+#first {
+    color:black;
+    
+}
+
+.personal {
+    color:brown;
+}
+/* use "li.personal" to make the class specific to list items, use just the dot if you want to have the css added to everything with a personal class. */
+
+div.header {
+    background-color:white;
+    color:black;
+}
